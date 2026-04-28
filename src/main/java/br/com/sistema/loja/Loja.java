@@ -11,7 +11,7 @@ public class Loja {
     }
 
     public String getNomeLoja() {
-        return nomeLoja;
+        return this.nomeLoja;
     }
 
     public void setNomeLoja(String nomeLoja) {

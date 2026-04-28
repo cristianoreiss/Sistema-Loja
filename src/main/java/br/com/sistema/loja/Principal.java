@@ -14,9 +14,8 @@ public class Principal extends JFrame {
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
-        setLayout(new GridLayout(5, 2, 10, 10)); // Organiza em grade
+        setLayout(new GridLayout(5, 2, 10, 10));
 
-        // Inicialização dos Componentes
         add(new JLabel(" Nome do Produto:"));
         txtNome = new JTextField();
         add(txtNome);
